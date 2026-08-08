@@ -5,38 +5,54 @@
 // ============================================================
 
 export const personalInfo = {
-  name: "Md Yusuf",
-  firstName: "Md Yusuf",
-  brandName: "Md Yusuf",
-  title: "Full Stack & Java Developer",
-  location: "Bhopal, India",
-  phone: "+91 99396-08743",
+  name: "Rohini Datkar",
+  firstName: "Rohini",
+  brandName: "Rohini",
+
+  title: "Graduate Engineer | Analyst | Data & Technology Enthusiast",
+
+  location: "Pune, Maharashtra, India",
+
+  phone: "YOUR_PHONE_NUMBER",
+
   emails: {
-    primary: "mdyusufcse096@iesuniversity.ac.in",
-    secondary: "yusuf.rgpv@gmail.com",
+    primary: "rohinidatkar@gmail.com",
+    secondary: "datkarrohini@gmail.com",
   },
+
   summary:
-    "Aspiring software engineer and motivated B.Tech Computer Science student with solid skills in Java, Spring Boot, React, and Python. Passionate about building scalable full-stack applications with clean architecture and modern tech stacks.",
-  resumeUrl: "/Md_Yusuf_Resume_2026.pdf",
+    "Electronics & Telecommunication Engineering graduate with hands-on experience in Python, SQL, Power BI, Excel, Tableau, and Machine Learning. Passionate about analytics, business intelligence, and solving business problems using data. Open to entry-level opportunities in Analyst, Graduate Engineer, MIS, Technical Support, Operations, and related technology roles.",
+
+  resumeUrl: "/Rohini_Datkar_Resume.pdf",
 };
 
 export const socialLinks = {
-  github: "https://github.com/mdyusuf0",
-  linkedin: "https://linkedin.com/in/mdyusuf0",
-  instagram: "https://instagram.com/heyyusuffff",
+  github: "https://github.com/rohinidatkar",
+  linkedin: "https://www.linkedin.com/in/rohinidatkar/",
 };
 
 export const heroContent = {
-  greeting: "Hi, I'm Md Yusuf",
-  titleHighlight: "Full Stack & Java Developer",
+  greeting: "Hi, I'm Rohini",
+
+  titleHighlight: "Graduate Engineer | Analyst",
+
   subtitle:
-    "I build fast, scalable applications using Java, Spring Boot, MERN Stack, and Python.",
-  ctaPrimary: { text: "View My Work", href: "#projects" },
+    "Electronics & Telecommunication Engineering graduate passionate about Data Analytics, Business Intelligence, Python, SQL, Power BI, Excel, and Machine Learning. Currently seeking entry-level opportunities in Analyst, Graduate Engineer, MIS, Technical Support, Operations, and related technology roles.",
+
+  ctaPrimary: {
+    text: "View My Work",
+    href: "#projects",
+  },
+
   ctaSecondary: {
     text: "Contact Me",
-    href: "mailto:mdyusufcse096@iesuniversity.ac.in?subject=Hiring Inquiry – Portfolio&body=Hello Md Yusuf,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,",
+    href: "mailto:rohinidatkar@gmail.com?subject=Hiring Opportunity",
   },
-  ctaResume: { text: "Download Resume", href: "/Md_Yusuf_Resume_2026.pdf" },
+
+  ctaResume: {
+    text: "Download Resume",
+    href: "/Rohini_Datkar_Resume.pdf",
+  },
 };
 
 export const aboutContent = {
