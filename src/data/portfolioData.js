@@ -57,8 +57,8 @@ export const heroContent = {
 
 export const aboutContent = {
   heading: "Hello!",
-  bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Md Yusuf</span>, an aspiring software engineer based in Bhopal, India, dedicated to crafting clean, functional, and highly scalable full-stack applications.`,
-  techStack: ["Java", "Spring Boot", "MERN Stack"],
+  bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Rohini Datkar</span>, an Electronics & Telecommunication Engineering graduate passionate about Data Analytics, Business Intelligence, Machine Learning, and Data Visualization. I enjoy transforming raw data into meaningful business insights through dashboards, predictive models, and analytical solutions. I have hands-on experience with Python, SQL, Power BI, Excel, Tableau, Machine Learning, and dashboard development.`,
+  techStack: ["Python", "SQL", "Power BI", "Machine Learning"],
 };
 
 export const skillsContent = {
@@ -97,56 +97,59 @@ export const technicalSkills = {
     {
       title: "Programming Languages",
       skills: [
-        { name: "Java", level: 90 },
-        { name: "C++", level: 85 },
-        { name: "Python", level: 75 }
+        { name: "Python", level: 92 },
+        { name: "SQL", level: 90 },
+        { name: "R", level: 65 }
       ]
     },
+
     {
-      title: "Full Stack",
+      title: "Data Analytics",
       skills: [
-        { name: "MERN Stack", level: 90 },
-        { name: "HTML", level: 95 },
-        { name: "CSS", level: 90 },
-        { name: "JavaScript", level: 92 }
+        { name: "Data Cleaning", level: 95 },
+        { name: "Data Preprocessing", level: 92 },
+        { name: "EDA", level: 95 },
+        { name: "Feature Engineering", level: 88 }
       ]
     },
+
     {
-      title: "Backend",
+      title: "Visualization & BI",
       skills: [
-        { name: "Spring Boot", level: 88 },
-        { name: "FastAPI", level: 75 },
-        { name: "REST APIs", level: 90 }
+        { name: "Power BI", level: 92 },
+        { name: "Tableau", level: 85 },
+        { name: "Excel", level: 95 },
+        { name: "Matplotlib", level: 88 }
       ]
     },
+
     {
-      title: "Databases",
+      title: "Machine Learning",
       skills: [
-        { name: "MongoDB", level: 88 },
-        { name: "MySQL", level: 85 },
-        { name: "Firebase", level: 80 }
+        { name: "Scikit-Learn", level: 88 },
+        { name: "TensorFlow", level: 80 },
+        { name: "LSTM", level: 78 },
+        { name: "Model Evaluation", level: 86 }
       ]
     },
+
     {
-      title: "Tools & Automation",
+      title: "Databases & Tools",
       skills: [
-        { name: "Git & GitHub", level: 90 },
-        { name: "VS Code", level: 95 },
-        { name: "Postman", level: 88 },
-        { name: "n8n", level: 82 },
-        { name: "MongoDB Compass", level: 85 },
-        { name: "Antigravity", level: 80 },
-        { name: "Codex", level: 75 }
+        { name: "MySQL", level: 90 },
+        { name: "Git & GitHub", level: 85 },
+        { name: "Jupyter Notebook", level: 95 },
+        { name: "VS Code", level: 85 }
       ]
     },
+
     {
-      title: "Computer Science Concepts",
+      title: "Core Concepts",
       skills: [
-        { name: "Data Structures", level: 88 },
-        { name: "Algorithms", level: 85 },
-        { name: "DBMS", level: 86 },
-        { name: "OOP", level: 90 },
-        { name: "Software Engineering", level: 84 }
+        { name: "Statistics", level: 85 },
+        { name: "Business Analytics", level: 90 },
+        { name: "Machine Learning", level: 88 },
+        { name: "Data Visualization", level: 95 }
       ]
     }
   ]
@@ -258,58 +261,230 @@ export const softSkillsList = [
 
 export const projects = [
   {
-    id: "foodmesh",
-    number: "01",
-    badge: "🚀 Flagship Project",
-    title: "FoodMesh",
-    description:
-      "FoodMesh — An enterprise-grade multi-tenant restaurant management and food ordering SaaS platform inspired by UrbanPiper. It enables restaurants to manage multiple outlets, menus, inventory, customers, staff, and orders through a scalable architecture with secure authentication, role-based access control, and real-time operations. Built with React, Next.js, NestJS, PostgreSQL, Redis, Kafka, Elasticsearch, Docker, Kubernetes, and AWS.",
-    techTags: [
-      "React",
-      "Next.js",
-      "NestJS",
-      "PostgreSQL",
-      "Redis",
-      "Kafka",
-      "Elasticsearch",
-      "Docker",
-      "Kubernetes",
-      "AWS",
-    ],
-    links: {
-      github: "https://github.com/ersamirsingh/UrbanPiper",
-      demo: null,
-    },
-    isFlagship: true,
+  id: "incidentiq-analysis",
+  number: "01",
+  badge: "⭐ Featured Project",
+
+  title: "IncidentIQ IT Incident Analysis",
+
+  description:
+    "Business-focused IT Incident Management analysis using over 141,000 real-world ITSM records. Performed data cleaning, exploratory data analysis, KPI reporting, trend analysis, SLA monitoring, category-wise incident analysis, and visualization to identify operational bottlenecks and improve service efficiency.",
+
+  techTags: [
+    "Python",
+    "Pandas",
+    "Matplotlib",
+    "NumPy",
+    "EDA",
+    "Data Visualization",
+    "ITSM",
+    "Business Analytics"
+  ],
+
+  links: {
+    github: "https://github.com/rohinidatkar/incidentiq-it-incident-analysis",
   },
-  {
-    id: "karigar",
-    number: "02",
-    badge: null,
-    title: "Karigar",
-    description:
-      "A platform connecting local skilled workers with customers, featuring real-time search, worker profiles, and booking management with full database integration.",
-    techTags: ["React", "Node.js", "MongoDB", "Express", "REST API"],
-    links: {
-      github: "https://github.com/mdyusuf0/Karigar",
-      frontendDemo: "https://karigar-frontend.onrender.com",
-      backendApi: "https://karigar-zny2.onrender.com",
-    },
-    isFlagship: false,
+
+  isFlagship: true,
+},
+
+{
+  id: "uber-traffic-weather",
+  number: "02",
+
+  title: "Uber Traffic Weather Analysis",
+
+  description:
+    "Analyzed Uber traffic volume by integrating weather and event datasets. Performed feature engineering, exploratory data analysis, trend visualization, and traffic pattern analysis to identify factors affecting congestion across different time periods.",
+
+  techTags: [
+    "Python",
+    "Pandas",
+    "NumPy",
+    "Matplotlib",
+    "Feature Engineering",
+    "EDA",
+    "Machine Learning"
+  ],
+
+  links: {
+    github: "https://github.com/rohinidatkar/uber-traffic-weather-analysis",
   },
-  {
-    id: "sentiment-analysis",
-    number: "03",
-    badge: null,
-    title: "AI-Powered Sentiment Analysis",
-    description:
-      "A full-stack web application that analyzes citizen feedback using Artificial Intelligence to classify sentiments as positive, negative, or neutral. Features a responsive React frontend, a Node.js backend, MongoDB for data storage, and n8n automation for workflow orchestration — enabling real-time insights and efficient feedback management.",
-    techTags: ["React", "Node.js", "MongoDB", "n8n", "AI/ML", "REST API"],
-    links: {
-      github: "#", // Update when available
-    },
-    isFlagship: false,
+
+  isFlagship: false,
+},
+
+{
+  id: "sales-refund-analysis",
+  number: "03",
+
+  title: "Sales & Refund Analysis Dashboard",
+
+  description:
+    "Analyzed sales and refund transactions for a UK-based office infrastructure company. Built interactive dashboards and generated business insights to identify refund drivers, monitor KPIs, and support data-driven decision making.",
+
+  techTags: [
+    "SQL",
+    "Power BI",
+    "Excel",
+    "Python",
+    "Dashboard",
+    "Business Intelligence"
+  ],
+
+  links: {
+    github: "https://github.com/rohinidatkar/Sales-and-Refunds-Analysis",
   },
+
+  isFlagship: false,
+},
+{
+  id: "credit-risk-analysis",
+  number: "04",
+
+  title: "Credit Risk Analysis",
+
+  description:
+    "Developed a machine learning model to predict loan default risk using customer financial data. Performed data preprocessing, feature engineering, exploratory data analysis, and model evaluation using multiple classification algorithms to support data-driven lending decisions.",
+
+  techTags: [
+    "Python",
+    "Pandas",
+    "Scikit-learn",
+    "Machine Learning",
+    "Classification",
+    "EDA",
+    "Data Visualization"
+  ],
+
+  links: {
+    github: "https://github.com/rohinidatkar/Credit-Risk-Analysis-",
+  },
+
+  isFlagship: false,
+},
+
+{
+  id: "movie-recommendation",
+  number: "05",
+
+  title: "Movie Recommendation System",
+
+  description:
+    "Built a personalized movie recommendation engine using collaborative and content-based filtering techniques. Processed movie datasets, engineered recommendation features, and generated personalized suggestions based on user preferences.",
+
+  techTags: [
+    "Python",
+    "Machine Learning",
+    "Recommendation System",
+    "Pandas",
+    "Scikit-learn"
+  ],
+
+  links: {
+    github: "https://github.com/rohinidatkar/Movie-Recommendation-System",
+  },
+
+  isFlagship: false,
+},
+
+{
+  id: "imdb-sentiment",
+
+  number: "06",
+
+  title: "IMDB RNN Sentiment Classifier",
+
+  description:
+    "Built a deep learning model using TensorFlow and LSTM to classify IMDB movie reviews into positive and negative sentiments. Included text preprocessing, tokenization, sequence padding, model training, and evaluation for binary sentiment classification.",
+
+  techTags: [
+    "Python",
+    "TensorFlow",
+    "LSTM",
+    "Deep Learning",
+    "NLP",
+    "Sentiment Analysis"
+  ],
+
+  links: {
+    github: "https://github.com/rohinidatkar/IMDB-RNN-Sentiment-Classifier",
+  },
+
+  isFlagship: false,
+},
+{
+  id: "twitter-sentiment",
+  number: "07",
+
+  title: "Twitter Sentiment Analysis",
+
+  description:
+    "Performed sentiment analysis on Twitter data using Natural Language Processing techniques. Applied text preprocessing, tokenization, vectorization, and machine learning algorithms to classify tweets into positive, negative, and neutral sentiments.",
+
+  techTags: [
+    "Python",
+    "NLP",
+    "Pandas",
+    "Scikit-learn",
+    "Text Mining",
+    "Machine Learning"
+  ],
+
+  links: {
+    github: "https://github.com/rohinidatkar/Twitter-Sentimental-Analysis",
+  },
+
+  isFlagship: false,
+},
+
+{
+  id: "uber-trip-analysis",
+  number: "08",
+
+  title: "Uber Trip Analysis",
+
+  description:
+    "Performed exploratory data analysis on Uber trip data to identify ride demand patterns, trip duration trends, peak hours, and customer behavior using Python and data visualization techniques.",
+
+  techTags: [
+    "Python",
+    "Pandas",
+    "Matplotlib",
+    "EDA",
+    "Data Visualization"
+  ],
+
+  links: {
+    github: "https://github.com/rohinidatkar/-Uber-Trip-Analysis-",
+  },
+
+  isFlagship: false,
+},
+
+{
+  id: "moving-object-detection",
+  number: "09",
+
+  title: "Moving Object Detection",
+
+  description:
+    "Developed a computer vision application to detect moving objects in video streams using image processing techniques. Implemented frame differencing and object tracking methods with OpenCV for real-time motion detection.",
+
+  techTags: [
+    "Python",
+    "OpenCV",
+    "Computer Vision",
+    "Image Processing",
+    "Object Detection"
+  ],
+
+  links: {
+    github: "https://github.com/rohinidatkar/Moving-Object-Detection",
+  },
+
+  isFlagship: false,
+},
 ];
 
 export const certificates = {
