@@ -285,82 +285,215 @@ export const softSkillsList = [
 
 export const projects = [
   {
-  id: "uber-traffic-prediction",
-  number: "01",
-  badge: "🚀 Featured Project",
+    id: "incidentiq-analysis",
+    number: "01",
+    badge: "⭐ Featured Industry Project",
 
-  title: "Uber Traffic Volume Prediction",
+    title: "IT Incident Management Analysis",
 
-  description:
-    "Developed a machine learning model to predict hourly traffic volume using historical Uber traffic datasets. Performed data cleaning, exploratory data analysis, feature engineering, and time-series forecasting to improve prediction accuracy.",
+    description:
+      "Analyzed 141,000+ real-world IT service management records to identify incident trends, SLA performance, priority distribution, and operational bottlenecks. Built business-focused dashboards and generated actionable insights using Python.",
 
-  techTags: [
-    "Python",
-    "Pandas",
-    "NumPy",
-    "Scikit-learn",
-    "XGBoost",
-    "LSTM",
-    "Power BI"
-  ],
+    techTags: [
+      "Python",
+      "Pandas",
+      "Matplotlib",
+      "Data Analysis",
+      "ITSM",
+      "Business Intelligence"
+    ],
 
-  links: {
-    github: "YOUR_GITHUB_PROJECT_LINK",
-    demo: null,
+    links: {
+      github: "https://github.com/rohinidatkar/incidentiq-it-incident-analysis",
+      demo: null,
+    },
+
+    isFlagship: true,
   },
 
-  isFlagship: true,
-},
   {
-  id: "sales-dashboard",
-  number: "02",
-  badge: null,
+    id: "uber-traffic-weather",
+    number: "02",
+    badge: "🚀 Live Industry Project",
 
-  title: "Sales & Refund Analytics Dashboard",
+    title: "Uber Traffic & Weather Analysis",
 
-  description:
-    "Designed an interactive Power BI dashboard to analyze sales performance, refunds, revenue trends, customer behavior, and business KPIs. Used SQL and Excel for data extraction, cleaning, and transformation before visualization.",
+    description:
+      "Analyzed Uber traffic data together with weather and event information to uncover congestion patterns and improve traffic forecasting using feature engineering and predictive analytics.",
 
-  techTags: [
-    "Power BI",
-    "SQL",
-    "Excel",
-    "Data Cleaning",
-    "Dashboard",
-    "DAX"
-  ],
+    techTags: [
+      "Python",
+      "Pandas",
+      "Machine Learning",
+      "Time Series",
+      "Feature Engineering",
+      "Power BI"
+    ],
 
-  links: {
-    github: "#",
+    links: {
+      github: "https://github.com/rohinidatkar/uber-traffic-weather-analysis",
+    },
+
+    isFlagship: true,
   },
 
-  isFlagship: false,
-},
   {
-  id: "movie-recommendation",
-  number: "03",
-  badge: null,
+    id: "uber-trip-analysis",
+    number: "03",
 
-  title: "Movie Recommendation System",
+    badge: null,
 
-  description:
-    "Built a recommendation system that suggests movies based on user preferences using collaborative filtering and content-based recommendation techniques. Performed data preprocessing, feature engineering, and recommendation analysis using Python.",
+    title: "Uber Trip Data Analysis",
 
-  techTags: [
-    "Python",
-    "Pandas",
-    "Machine Learning",
-    "Recommendation System",
-    "Scikit-learn",
-    "Data Analysis"
-  ],
+    description:
+      "Performed exploratory data analysis on Uber trip datasets to identify ride demand patterns, peak hours, booking trends, and customer behavior using Python visualization libraries.",
 
-  links: {
-    github: "#",
+    techTags: [
+      "Python",
+      "EDA",
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "Visualization"
+    ],
+
+    links: {
+      github: "https://github.com/rohinidatkar/-Uber-Trip-Analysis-",
+    },
+
+    isFlagship: false,
   },
 
-  isFlagship: false,
-},
+  {
+    id: "sales-refund-dashboard",
+    number: "04",
+
+    badge: null,
+
+    title: "Sales & Refund Analytics Dashboard",
+
+    description:
+      "Designed interactive Power BI dashboards to analyze sales performance, refunds, customer behavior, revenue trends, and KPIs using SQL, Excel, and business intelligence techniques.",
+
+    techTags: [
+      "Power BI",
+      "SQL",
+      "Excel",
+      "DAX",
+      "Dashboard",
+      "Business Analytics"
+    ],
+
+    links: {
+      github: "https://github.com/rohinidatkar/Sales-and-Refunds-Analysis",
+    },
+
+    isFlagship: false,
+  },
+
+  {
+    id: "credit-risk-analysis",
+    number: "05",
+
+    badge: null,
+
+    title: "Credit Risk Analysis",
+
+    description:
+      "Developed predictive models to classify loan default risk using Logistic Regression, Decision Trees, and Random Forest while evaluating feature importance and business risk.",
+
+    techTags: [
+      "Python",
+      "Machine Learning",
+      "Random Forest",
+      "Logistic Regression",
+      "Scikit-learn"
+    ],
+
+    links: {
+      github: "https://github.com/rohinidatkar/Credit-Risk-Analysis-",
+    },
+
+    isFlagship: false,
+  },
+
+  {
+    id: "movie-recommendation",
+    number: "06",
+
+    badge: null,
+
+    title: "Movie Recommendation System",
+
+    description:
+      "Built a hybrid recommendation engine using collaborative filtering and content-based filtering to generate personalized movie recommendations from user preference data.",
+
+    techTags: [
+      "Python",
+      "Recommendation System",
+      "Pandas",
+      "Machine Learning",
+      "Scikit-learn"
+    ],
+
+    links: {
+      github: "https://github.com/rohinidatkar/Movie-Recommendation-System",
+    },
+
+    isFlagship: false,
+  },
+
+  {
+    id: "movie-rating-sql",
+    number: "07",
+
+    badge: null,
+
+    title: "Movie Rating Analysis using SQL",
+
+    description:
+      "Performed SQL-based exploratory analysis on IMDb datasets to discover genre trends, audience preferences, rating distributions, and release strategies.",
+
+    techTags: [
+      "SQL",
+      "MySQL",
+      "Data Analysis",
+      "Database",
+      "Analytics"
+    ],
+
+    links: {
+      github: "https://github.com/rohinidatkar/movie-rating-analysis-sql",
+    },
+
+    isFlagship: false,
+  },
+
+  {
+    id: "imdb-sentiment",
+    number: "08",
+
+    badge: null,
+
+    title: "IMDb Sentiment Classifier",
+
+    description:
+      "Built a deep learning sentiment classifier using TensorFlow LSTM networks to classify movie reviews into positive and negative sentiments through NLP techniques.",
+
+    techTags: [
+      "TensorFlow",
+      "LSTM",
+      "NLP",
+      "Deep Learning",
+      "Python"
+    ],
+
+    links: {
+      github: "https://github.com/rohinidatkar/IMDB-RNN-Sentiment-Classifier",
+    },
+
+    isFlagship: false,
+  },
 ];
 
 export const certificates = {
