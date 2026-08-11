@@ -33,7 +33,7 @@ const SkillCard = ({ category, index }) => (
   </div>
 );
 
-const TechnicalSkills = () => {
+const Skills = () => {
   return (
     <section id="skills" className="bg-[#0a0a0a] pt-24 pb-28 px-6 md:px-12 w-full relative overflow-hidden font-sans">
       {/* Background visual elements */}
@@ -67,4 +67,4 @@ const TechnicalSkills = () => {
   );
 };
 
-export default TechnicalSkills;
+export default Skills;
