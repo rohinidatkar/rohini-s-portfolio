@@ -401,22 +401,24 @@ export const certificates = {
 };
 
 export const education = {
-  degree: "B.Tech – Computer Science & Engineering",
-  institution: "IES College of Technology (RGPV)",
-  cgpa: "8.35",
-  graduation: "2027",
-  twelfth: "12th Science – 81%",
-  tenth: "10th CBSE – 70%",
+  degree: "B.E. – Electronics & Telecommunication Engineering",
+  institution: "Pad. Dr. D. Y. Patil Institute of Engineering Management & Research",
+  cgpa: "7.55",
+  graduation: "2024",
+  twelfth: "HSC – 60.46%",
+  tenth: "SSC – 73.20%",
 };
 
 export const footerContent = {
   taglines: [
-    "Software Engineering & Web Dev",
-    "Java · Spring Boot · React",
-    "Full Stack Applications",
+    "Data Analyst & AI Enthusiast",
+    "Python • SQL • Power BI",
+    "Machine Learning • Data Analytics",
   ],
-  credential: "B.Tech CSE · CGPA 8.35",
-  copyright: `© ${new Date().getFullYear()} Md Yusuf | Built with React`,
+
+  credential: "B.E. E&TC • CGPA 7.55",
+
+  copyright: `© ${new Date().getFullYear()} Rohini Datkar | Built with React`,
 };
 
 // EmailJS Configuration
