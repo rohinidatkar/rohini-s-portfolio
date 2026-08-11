@@ -9,12 +9,12 @@ export const personalInfo = {
   firstName: "Rohini",
   brandName: "Rohini",
 
-  title: "Graduate Engineer | Analyst | Data & Technology Enthusiast",
+  title: "Analyst | Data & Technology Enthusiast",
 
   location: "Pune, Maharashtra, India",
 
-  phone: "YOUR_PHONE_NUMBER",
-
+  phone: "9561972359",
+  
   emails: {
     primary: "rohinidatkar@gmail.com",
     secondary: "datkarrohini@gmail.com",
@@ -29,6 +29,7 @@ export const personalInfo = {
 export const socialLinks = {
   github: "https://github.com/rohinidatkar",
   linkedin: "https://www.linkedin.com/in/rohinidatkar/",
+  instagram: "https://www.instagram.com/r.ohiniii/?hl=en"
 };
 
 export const heroContent = {
