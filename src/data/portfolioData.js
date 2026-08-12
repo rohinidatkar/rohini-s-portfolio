@@ -496,42 +496,84 @@ export const projects = [
   },
 ];
 
-export const certificates = {
-  featured: [
-    {
-      name: "Oracle Cloud Infrastructure 2025",
-      issuer: "Oracle",
-      icon: "☁️",
-    },
-    {
-      name: "Programming in Java (94%)",
-      issuer: "NPTEL",
-      icon: "☕",
-    },
-    {
-      name: "C Programming & Assembly Language",
-      issuer: "NPTEL",
-      icon: "⚙️",
-    },
-    {
-      name: "Technology Job Simulation",
-      issuer: "Deloitte",
-      icon: "💼",
-    },
-    {
-      name: "Career Edge – IT Primer",
-      issuer: "TCS iON",
-      icon: "🎓",
-    },
-    {
-      name: "Fundamentals of BI & Analytics",
-      issuer: "Lumenore",
-      icon: "📊",
-    },
-  ],
-  viewAllUrl:
-    "https://drive.google.com/file/d/1ObdGWtVSx8SsfR4AcbCySSd9LFXcAs9f/view?usp=sharing",
-};
+export const certifications = [
+  {
+    title: "Microsoft × upGrad Generative AI",
+    issuer: "Microsoft + upGrad",
+    year: "2026",
+    featured: true,
+    credential: "YOUR_LINK"
+  },
+  {
+    title: "Data Science & Machine Learning Internship",
+    issuer: "Edureka",
+    year: "2024",
+    credential: "YOUR_LINK"
+  },
+  {
+    title: "Data Analytics Essentials",
+    issuer: "Cisco",
+    year: "2024",
+    credential: "YOUR_LINK"
+  },
+  {
+    title: "Deloitte Data Analytics Job Simulation",
+    issuer: "Forage",
+    year: "2025",
+    credential: "YOUR_LINK"
+  },
+  {
+    title: "BCG Data Science Job Simulation",
+    issuer: "Forage",
+    year: "2024",
+    credential: "YOUR_LINK"
+  },
+  {
+    title: "Accenture Data Analytics & Visualization",
+    issuer: "Forage",
+    year: "2024",
+    credential: "YOUR_LINK"
+  },
+  {
+    title: "Python & SQL Fundamentals",
+    issuer: "Edureka",
+    year: "2024",
+    credential: "YOUR_LINK"
+  },
+  {
+    title: "Machine Learning",
+    issuer: "Edureka",
+    year: "2024",
+    credential: "YOUR_LINK"
+  },
+  {
+    title: "Deep Learning",
+    issuer: "Edureka",
+    year: "2024",
+    credential: "YOUR_LINK"
+  },
+  {
+    title: "Tableau",
+    issuer: "Edureka",
+    year: "2024",
+    credential: "YOUR_LINK"
+  }
+];
+
+export const professionalDevelopment = [
+  "Aspire Intermediate Communication",
+  "Aspire Advanced Communication",
+  "Aspire Functional English Level 1",
+  "Personality Development",
+  "Language & Thought Enrichment Residential Camp"
+];
+
+export const achievements = [
+  "Rajyapuraskar Awardee",
+  "Microsoft Certified (Microsoft × upGrad)",
+  "Completed 10+ Industry Certifications",
+  "Completed 3 Industry Job Simulations (BCG, Deloitte, Accenture)"
+];
 
 export const education = {
   degree: "B.E. – Electronics & Telecommunication Engineering",
