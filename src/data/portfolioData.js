@@ -29,6 +29,7 @@ export const personalInfo = {
 export const socialLinks = {
   github: "https://github.com/rohinidatkar",
   linkedin: "https://www.linkedin.com/in/rohinidatkar/",
+  instagram: "https://www.instagram.com/r.ohiniii/?hl=en",
 };
 
 export const heroContent = {
@@ -45,9 +46,9 @@ export const heroContent = {
   },
 
   ctaSecondary: {
-    text: "Contact Me",
-    href: "mailto:rohinidatkar@gmail.com?subject=Hiring Opportunity",
-  },
+  text: "Contact Me",
+  href: "#contact",
+},
 
   ctaResume: {
     text: "Download Resume",

@@ -54,20 +54,26 @@ const Contact = () => {
     }
 
     // EmailJS integration
-    try {
-      const emailjs = await import('@emailjs/browser');
-      await emailjs.sendForm(
-        emailjsConfig.serviceId,
-        emailjsConfig.templateId,
-        formRef.current,
-        emailjsConfig.publicKey
-      );
-      setStatus('success');
-      formRef.current.reset();
-    } catch (error) {
-      console.error('EmailJS Error:', error);
-      setStatus('error');
+    // EmailJS integration
+try {
+  const emailjs = await import('@emailjs/browser');
+
+  await emailjs.sendForm(
+    emailjsConfig.serviceId,
+    emailjsConfig.templateId,
+    formRef.current,
+    {
+  publicKey: emailjsConfig.publicKey,
     }
+  );
+
+  setStatus('success');
+  formRef.current.reset();
+
+} catch (error) {
+  console.error('EmailJS Error:', error.text || error);
+  setStatus('error');
+}
 
     setTimeout(() => setStatus('idle'), 4000);
   };

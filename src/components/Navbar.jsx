@@ -20,7 +20,8 @@ const Navbar = () => {
 
   const navLinks = ['Home', 'About', 'Skills', 'Projects', 'Contact'];
 
-  const hireMeMailto = `mailto:mdyusufcse096@iesuniversity.ac.in?subject=Hiring Inquiry – Portfolio&body=Hello Md Yusuf,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,`;
+  const hireMeMailto =
+  "mailto:rohinidatkar@gmail.com?subject=Hiring Opportunity";
 
   return (
     <nav 
@@ -36,7 +37,7 @@ const Navbar = () => {
         
         {/* Left Side: Logo/Name */}
         <div className="flex items-center">
-          <a href="#" className="text-white text-2xl font-black tracking-tight whitespace-nowrap">
+          <a href="#home" className="text-white text-2xl font-black tracking-tight whitespace-nowrap">
             {personalInfo.brandName}<span className="text-red-500">.</span>
           </a>
         </div>
